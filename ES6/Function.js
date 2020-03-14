@@ -45,3 +45,9 @@ function fn2(){
 }
 
 fn2();
+
+//with default values
+let fn3=(k=13,l=26)=>{
+  return k*l;
+}
+console.log("With Default value: "+fn3())
