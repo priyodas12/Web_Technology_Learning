@@ -34,3 +34,14 @@ let sum2=m=>{
 }
 
 console.log("Sum :"+sum2(23,78));
+
+//annonyoums function
+setTimeout(()=>console.log("after 2 sec"),2000);
+
+
+//print window object
+function fn2(){
+  console.log(this);
+}
+
+fn2();
