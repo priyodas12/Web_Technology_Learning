@@ -13,3 +13,9 @@ console.log(ROADS);
 //pointer can not been changed but the values can be altered.
 ROADS.push("8J");
 console.log(ROADS);
+
+//hoisting of variable for let implicit
+
+c=20;
+console.log(c);
+var c;//this will not work for let or const
