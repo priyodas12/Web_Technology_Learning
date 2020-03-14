@@ -11,3 +11,11 @@ let func=()=>{
 }
 
 func();
+
+let constSum=()=>{
+  const a=20;
+  const j=3;
+  return a|j;
+}
+
+console.log(constSum());
