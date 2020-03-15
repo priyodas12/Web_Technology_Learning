@@ -9,6 +9,14 @@ let name="priya";
 let employer="Infy";
 let emp2={
   name,
-  employer
+  employer,
+  "greet emp"(){
+    console.log("hey There!")
+  },
+  greet(){
+    console.log("hey There you!")
+  }
 };
 console.log(emp2);
+emp2["greet emp"]();
+emp2["greet"]();
