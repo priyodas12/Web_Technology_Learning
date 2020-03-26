@@ -1,0 +1,9 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: red;
+  text-emphasis-color: red;
+  text-align: center;
+}
