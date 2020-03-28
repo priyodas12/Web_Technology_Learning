@@ -1,32 +1,32 @@
-// //getElementsByClassName
-// const elements=document.getElementsByClassName('collection-item');
-//
-// console.log(elements);
-// console.log(elements[0]);
-// elements[0].style.color='red';
-// elements[1].textContent='do work';
+//getElementsByClassName
+const elements=document.getElementsByClassName('collection-item');
+
+console.log(elements);
+console.log(elements[0]);
+elements[0].style.color='red';
+elements[1].textContent='do work';
 
 
 
 //getElementsByTagName
-// const lis=document.getElementsByTagName('li');
-//
-// console.log(lis);
-// console.log(lis[0]);
-// lis[0].style.color='red';
-// lis[1].textContent='do work';
+const lis=document.getElementsByTagName('li');
+
+console.log(lis);
+console.log(lis[0]);
+lis[0].style.color='red';
+lis[1].textContent='do work';
 
 //convert html element by array
 // let allVal=Array.from(lis);
 //
-// //allVal.reverse();
-// //console.log(allVal);
-//
-// allVal.forEach((list,index)=>{
-//   console.log(list.className);
-//   list.style.color='blue';
-//   list.textContent=`${++index} do some stuff`;
-// })
+allVal.reverse();
+console.log(allVal);
+
+allVal.forEach((list,index)=>{
+  console.log(list.className);
+  list.style.color='blue';
+  list.textContent=`${++index} do some stuff`;
+})
 
 
 //querySelectorAll
