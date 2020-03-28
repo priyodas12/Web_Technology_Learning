@@ -59,4 +59,3 @@ console.log(typeof a);
 console.log(a.toFixed(2));//2 is for decimal position
 console.log(parseInt('100.01001'));//100
 console.log(parseFloat('100.01001'));
-//
