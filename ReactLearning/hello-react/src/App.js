@@ -6,7 +6,7 @@ import Greet from './Components/Greet'
 function App() {
   return (
     <div className="App">
-        <Greet/>
+        <Greet />
     </div>
   );
 }
