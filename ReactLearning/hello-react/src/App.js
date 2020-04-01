@@ -1,16 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Greet from './Components/Greet'
-import Welcome from './Components/GreetClass'
-import { Hello } from './Components/Hello'
+import { Demo } from './Components/Props.jsx'
 
 function App() {
   return (
     <div className="App">
-        <Greet />
-        <Welcome />
-        <Hello />
+        <Demo city='Bangalore' temp='21' />
+        <Demo city='Kolkata' temp='24' />
+        <Demo city='Delhi' temp='29' />
     </div>
   );
 }
