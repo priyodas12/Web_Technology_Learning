@@ -10,7 +10,7 @@ function App() {
     <div className="App">
         <AddToCart/>
         <Greet name="priyo" surname="das"/>
-        <GreetClass name="priyo" surname="das"/>
+        <GreetClass name="priyo" surname="das" age="20">30</GreetClass>
     </div>
   );
 }

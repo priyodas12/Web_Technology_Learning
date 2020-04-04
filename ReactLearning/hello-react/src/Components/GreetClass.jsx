@@ -5,8 +5,8 @@ class Welcome extends Component{
     const {name,surname}=this.props;
     return (
       <div>
-        <h1>Welcome {name} {surname}</h1>
-        <h5>{this.props.children}</h5>
+        <h1>Welcome {name} {surname} </h1>
+        <h1>{this.props.children}</h1>
       </div>
     );
   }
