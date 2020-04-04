@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Demo } from './Components/Props.jsx'
 import Welcome from './Components/GreetClass.jsx'
+import Message from './Components/Message.jsx'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Welcome name='xyz'>
             <p>01/04/2020</p>
         </Welcome>
+        <Message />
     </div>
   );
 }
