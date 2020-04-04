@@ -1,16 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import AddToCart from './Components/AddToCart'
-import Greet from './Components/Greet'
-import GreetClass from './Components/GreetClass'
+import FunctionClick from './Components/FunctionClick'
+
 
 function App() {
   return (
     <div className="App">
-        <AddToCart/>
-        <Greet name="priyo" surname="das"/>
-        <GreetClass name="priyo" surname="das" age="20">30</GreetClass>
+        <FunctionClick/>
     </div>
   );
 }
